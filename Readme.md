@@ -27,7 +27,7 @@ print "str.count(sub, 4, 40) : ", str.count(sub, 4, 40)
 sub = "wow";
 print "str.count(sub) : ", str.count(sub)
 ```
-
+output:
 ```
 str.count(sub, 4, 40) :  2
 str.count(sub) :  1
