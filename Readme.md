@@ -47,14 +47,7 @@ os.rmdir('dirname') #it can only remove empty directory
 ```python
 ```
 
-```
-```
-
-
 ```python
-```
-
-```
 ```
 
 
@@ -103,44 +96,170 @@ len(data_structure) #returns the nuber of element in data structure
 If the else statement is used with a for loop, the else block is executed only if for
 loops terminates normally (and not by encountering break statement).
 
-```python
-```
 
-```
-```
-
+## Functions
 
 
 ```python
+def functionname( parameters ):
+	"function_docstring"
+	function_suite
+	return [expression]
+
+
+def func( list ):
+	"This func will not cause any change in list2"
+	list = [x,y,z] # This would create a new local parameter instead of modifing old one.
+	return
+list = [x,y,z]
+func( list )
+```
+All parameters (arguments) in the Python language are passed by reference. It means if
+you change what a parameter refers to within a function, the change also reflects back in
+the calling function.
+
+
+```python
 ```
 
+```python
 ```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
 ```
 
 
 ```python
 ```
 
+```python
 ```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
 ```
 
 ## Strings 
 
 Python treats single quotes the same as double quotes. SO there is no **char** type.
-
-str='string'
-
 it follows the usal slicing scheme.
 
-```python
-s.upper()
-```
-converts all the characters to upper case
 
 ```python
-s.lower()
+str='string'
+str.upper() 		#returns  all the characters to upper case
+str.lower() 		#converts all the characters to lowercase
+str.capitalize()	#returns a copy of the string with only its first character capitalized.
+str.center(width[, fillchar])  
+# returns string that is at least width characters wide, created by padding the string with the character fillchar (default is a space).
+str.count(sub, start= 0,end=len(string)) 
+#returns the number of occurrences of substring sub in the range
+[start, end].
 ```
-converts all the characters to lowercase
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
+
+```python
+```
 
 
 
@@ -238,65 +357,6 @@ sequences, indexing and slicing work the same way for tuples as they do for stri
 To write a tuple containing a single value you have to include a comma, even though there is only one value −
 
 A tuple is a sequence of immutable Python objects. 
-```python
-```
-
-```
-```
-
-
-```python
-```
-
-```
-```
-
-
-```python
-```
-
-```
-```
-
-
-```python
-```
-
-```
-```
-
-```python
-```
-
-```
-```
-
-
-```python
-```
-
-```
-```
-
-
-```python
-```
-
-```
-```
-
-
-```python
-```
-
-```
-```
-
-```python
-```
-
-```
-```
 
 
 
