@@ -215,10 +215,8 @@ str='string'
 str.upper() 		#returns  all the characters to upper case
 str.lower() 		#converts all the characters to lowercase
 str.capitalize()	#returns a copy of the string with only its first character capitalized.
-str.center(width[, fillchar])  
-# returns string that is at least width characters wide, created by padding the string with the character fillchar (default is a space).
-str.count(sub, start= 0,end=len(string)) 
-#returns the number of occurrences of substring sub in the range
+str.center(width[, fillchar])  # returns string that is at least width characters wide, created by padding the string with the character fillchar (default is a space).
+str.count(sub, start= 0,end=len(string)) #returns the number of occurrences of substring sub in the range
 [start, end].
 ```
 
