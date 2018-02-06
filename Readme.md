@@ -218,7 +218,7 @@ str.capitalize() #returns a copy of the string with only its first character cap
 str.center(width[, fillchar]) # returns string that is at least width characters wide, created by padding the string with the character fillchar (default is a space).
 str.count(sub, start= 0,end=len(string)) #returns the number of occurrences of substring sub in the range [start, end].
 str.encode(encoding='UTF-8',errors='strict') #returns an encoded version of the string.
-Str.decode(encoding='UTF-8',errors='strict') #returns the decoded version of string
+str.decode(encoding='UTF-8',errors='strict') #returns the decoded version of string
 str.endswith(suffix[, start[, end]]) # It returns True if the string ends with the specified suffix
 str.expandtabs(tabsize=8) # returns a copy of the string in which tab characters have been added using spaces.
 ```
